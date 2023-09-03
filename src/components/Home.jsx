@@ -5,7 +5,7 @@ import {HiArrowRight} from 'react-icons/hi'
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-t from-gray-700 via-gray-900 to-black'>
+    <div name="home" className='pb-10 h-screen w-full bg-gradient-to-t from-gray-700 via-gray-900 to-black'>
         <div className='max-w-screen-lg mx-auto flex flex-col
         items-center justify-center h-full px-4 md:flex-row'>
           <div className='flex flex-col justify-center h-full'>
