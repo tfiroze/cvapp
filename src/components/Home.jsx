@@ -9,8 +9,8 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col
         items-center justify-center h-full px-4 md:flex-row'>
           <div className='flex flex-col justify-center h-full'>
-            <h2 className='text-3xl sm:text-6xl
-            font-bold text-white'>Hey there! I'm a Full Stack Developer</h2>
+            <h2 className='text-2xl sm:text-6xl
+            font-bold text-white'>Hey there! I'm a Software Engineer</h2>
             <p className='text-lg text-slate-400 font-semibold py-4 max-w-lg'>  
               I'm a prospective MSc graduate in Computer Science from University College Dublin, 
               set to complete my degree in December 2023 and ready to embark on a career in January 
