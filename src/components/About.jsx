@@ -7,7 +7,7 @@ const About = () => {
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
-        <p className='text-xl mt-5'>
+        <p className='text-xl mt-5 sm:text-2xl md:text-3xl'>
           I'm Tehsein Firoze Akhtar, an ambitious MSc Computer Science student at the esteemed 
           University College Dublin, deeply committed to devising innovative software and data-related 
           solutions. My proficiency in various programming languages and tools has empowered me to successfully 
@@ -15,7 +15,7 @@ const About = () => {
           a Dublin Bikes Web Application on AWS.
         </p>
         <br />
-        <p className='text-xl'>
+        <p className='text-xl sm:text-lg md:text-xl'>
           Apart from my academic accomplishments, I've honed my professional skills through a rewarding internship experience 
           at Bluelearn as a Front End Web Developer. Not only did I have the chance to develop and test numerous website modules, 
           but I also gained in-depth understanding of the entire web development process, from design to deployment. Moreover, my 

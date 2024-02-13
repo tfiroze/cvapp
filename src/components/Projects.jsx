@@ -28,11 +28,11 @@ const Projects = () => {
 
   return (
     <div name="projects" className='w-full h-auto bg-gradient-to-t from-gray-700 via-gray-900 to-black text-white py-8 z-0 relative'>
-      <div className='max-w-screen-lg p-4 md:p-8 lg:p-12 mx-auto flex flex-col justify-center w-full h-full pt-4  md:pt-8 lg:pt-12'>
+      <div className='max-w-screen-lg p-4 md:p-8 pb-10 mb-10 lg:p-12 mx-auto flex flex-col justify-center w-full h-full pt-4  md:pt-8 lg:pt-12'>
         <div className='pb-14 px-4'>
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Projects</p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 '>
           {projectList.map((project, index) => (
             <div key={index} className='group bg-gray-800 rounded-lg p-6 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
               <h3 className='text-2xl font-semibold mb-4'>{project.title}</h3>
